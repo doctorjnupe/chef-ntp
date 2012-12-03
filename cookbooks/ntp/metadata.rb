@@ -28,6 +28,6 @@ attribute "ntp/is_server",
 
 attribute "ntp/servers",
   :display_name => "NTP Servers",
-  :description => "Array of servers we should talk to",
+  :description => "Array of servers",
   :type => "array",
   :default => ["ntp1.tfoundry.com iburst", "time.nist.gov"]
