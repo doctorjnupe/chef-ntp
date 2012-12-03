@@ -1,4 +1,4 @@
-name "ntp_client"
+name "base"
 description "Role applied to ntp clients"
 run_list [
     "recipe[ntp]"
